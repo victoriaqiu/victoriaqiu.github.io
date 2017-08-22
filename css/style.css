@@ -42,7 +42,7 @@ body a:hover{
 }
 .header-left img {
     width: 100%;
-    border: 5px solid rgba(255, 255, 255, 0.68);s
+    border: 5px solid rgba(255, 255, 255, 0.68);
 }
 .header-right {
     padding-left: 3em;
@@ -121,13 +121,13 @@ ul.nav.navbar li a {
     font-family: 'Overlock', cursive;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
-    color: #6495ED;
     background: #fff;
-	-webkit-transform: scale(0.8);
-	-moz-transform: scale(0.8);
-    transform: scale(0.8);
-	-o-transform: scale(0.8);
-	-ms-transform: scale(0.8);
+    color: #6495ED;
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+    transform: scale(0.7);
+	-o-transform: scale(0.7);
+	-ms-transform: scale(0.7);
 }
 /*--//top-nav--*/
 .news,.about,.work,.education,.skills,.portfolio,.contact{
@@ -148,14 +148,14 @@ p {
 }
 /*--//welcome--*/
 .welcome {
-    background:url(../images/a.jpg)no-repeat center 0px;
+    background:url(../images/a3.jpg)no-repeat center 0px;
     -webkit-background-size:cover;
     background-size:cover;
     -moz-background-size:cover;
     position: relative;
 }
 .welcome ul {
-    background-color:rgba(230,230,255,0.3);
+    background-color:rgba(230,230,255,0.5);
     border: 3px double #fff;
     padding: 5em 5em;
     margin:150px;
@@ -549,7 +549,7 @@ h2.resp-accordion {
 
 
 .contact{
-    background:url(../images/b.png)no-repeat center 0px;
+    background:url(../images/b3.jpg)no-repeat center 0px;
     -webkit-background-size:cover;
     background-size:cover;
     -moz-background-size:cover;
@@ -565,7 +565,7 @@ h2.resp-accordion {
 .contact p{
     text-align:center;
     font-size:16px;
-    color:#555;
+    color:#ddd;
     line-height:27px;
     width:100%;
     margin:0px;
