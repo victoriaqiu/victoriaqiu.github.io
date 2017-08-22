@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Georgia', sans-serif;
+	font-family: 'Arial', sans-serif;
 	background: #FFFAFA;
 }
 body a{
@@ -199,7 +199,7 @@ p {
 }
 .about-right ul li {
     display: block;
-    color: #999;
+    color: #555;
     margin: 1em 0;
 	font-size:1em;
 }
@@ -322,7 +322,7 @@ p {
     background-color: #FFF0F5;
 }
 .progress-bar { 
-    background-color: #FF88C2;
+    background-color: #FFC0CB;;
 }
 .bar-grids h6 {
     font-size: 1.1em;
