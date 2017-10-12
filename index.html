@@ -18,18 +18,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--Custom Theme files-->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/lanrenzhijia.css" media="screen">
 <link rel="stylesheet" href="css/swipebox.css">
+<link rel="stylesheet" href="css/kort.css">
 <!--//Custom Theme files-->
 <!--js-->
-<script src="js/jquery-1.11.1.min.js"></script> 
+
+
 <!-- //js -->
 <!--web-fonts-->
 <link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery.min.js"></script>
 <!--//web-fonts-->
 <!--start-smooth-scrolling-->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>	
+<script src="js/lanrenzhijia.js"></script>
 <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -57,7 +62,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li><a href="#news" class="scroll">News</a></li>
 						<li><a href="#home" class="scroll">About me</a></li>
 						<li><a href="#work" class="scroll">Research</a></li>
+						<li><a href="#project" class="scroll">Project</a></li>
 						<li><a href="#contact" class="scroll">Contact</a></li>
+						<li><a href="cv/CV_E.pdf"><strong>Resume</strong></a></a></li>
 					</ul>
 					<div class="clearfix"> </div>
 				</div>
@@ -69,7 +76,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div id="welcome" class="welcome">
 		<div class="container">
 			<ul>
-				<p><font size="18" face="Impact" color="#6495ED">Welcome!</font></p>
+				<p><font size="16" face="Impact" color="#6495ED">Welcome!</font></p>
 				<p><strong>This is <i><font color=#FF88C2 size="5.5">Yuwei Qiu</font></i> 's Homepage. I am now a senior undergraduate of the <a href="http://www.ee.tsinghua.edu.cn/publish/eeen/index.html">Department of Electronic Engineering</a>, <a href="http://www.tsinghua.edu.cn/publish/newthuen/index.html">Tsinghua University</a>. While taking the courses, I am also a research assistant at <a href="http://3dimage.ee.tsinghua.edu.cn"><i>3-D Image Simulation Lab</i></a>, <i><a href="http://ocrserv.ee.tsinghua.edu.cn/">Intellectual Graph and Text Processing Lab</a></i>, <strong>Tsinghua University</strong>, advised by <a href="http://3dimage.ee.tsinghua.edu.cn/mhm">Prof. Huimin Ma</a> and <a href="http://www.ee.tsinghua.edu.cn/publish/eeen/3784/2010/20101219115601212198627/20101219115601212198627_.html">Prof. Shengjin Wang</a>, and <i><a href="https://www.grasp.upenn.edu">GRASP Laboratory</a></i>, <a href="https://www.upenn.edu/">University of Pennsylvania</a>, advised by <a href="http://www.cis.upenn.edu/~jshi/">Prof. Jianbo Shi</a>.</p>
 				<p>Now I am looking for graduate opportunities in America.</p>
 			</ul>
@@ -80,13 +87,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 	<!--news-->
 	<div id="news" class="news">
+		</div>
 		<div class="container">
 			<h3 class="title"> News</h3>
-			<p>•	My paper <i><strong><font color="#FF88C2"><a href="files/ETC_YQiu_HMa_LGao.pdf">"Hardness Prediction for Object Detection Inspired by Human Vision"</a></font></strong></i> has been selected as an oral presentation of <i><a href="http://icig2017.org"><strong>International Conference of Image Graphics 2017</strong></a></i>. Check out the <a href="files/oral.jpg">pictures</a>!</p>
+
+<div class="thumb kort">
+	<img src="img/1.jpg" width="200" height="200">
+	<img src="img/2.jpg" width="200" height="200">
+	<img src="img/3.jpg" width="200" height="200">
+	<img src="img/4.jpg" width="200" height="200">
+	<img src="img/5.jpg" width="200" height="200">
+	<img src="img/6.jpg" width="200" height="200">
+	<img src="img/7.jpg" width="200" height="200">
+	<img src="img/8.jpg" width="200" height="200">
+	<img src="img/9.jpg" width="200" height="200">
+</div>
+
+
+<script src="js/kort.js"></script>
+  		  	<p>•	My paper <i><strong><font color="#FF88C2"><a href="files/ETC_YQiu_HMa_LGao.pdf">"Hardness Prediction for Object Detection Inspired by Human Vision"</a></font></strong></i> has been selected as an oral presentation of <i><a href="http://icig2017.org"><strong>International Conference of Image Graphics 2017</strong></a></i>. Check out the <a href="files/oral.jpg">pictures</a>!</p>
 			<p>•	I am going to <a href="https://www.grasp.upenn.edu"><strong>GRASP laboratory, University of Pennsylvania</strong></a> for research internship this summer.</p>
 			<p>•	My paper "Dataset framework for Object Detection Based On Human Visual Features"</i> has been accepted by <i><strong>Journal of Graphics</strong></a></i>.</p>
 			<p>•	I will take charge of "External Communication department of Student Union of Tsinghua University" as an Assistant Chairman. Here is a <a href="files/public.jpg">photo</a>.</p>
 			<p>•	Check this out!!! We have successfully built up a <a href="https://live.thu.ee">website</a> for EE Anniversary broadcast for the first time!!! Here is a <a href="files/boradcast.jpg">photo</a> of our team.</p>
+
+  		<br><br>
+			
 		</div>
 	</div>	
 	<!--//news-->
@@ -102,8 +128,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<img src="images/img1.jpg" alt=""/>
 				</div>
 				<div class="col-md-8 header-right">
-					<h2>Hello!</h2></font>
-					<h1><font face="Georgia">I'm Yuwei Qiu</font></h1>
+					<h2>Download My Resume</h2></font>
+					<h1><font face="Georgia"><a href="cv/CV_E.pdf">I'm Yuwei Qiu</a></font></h1>
 					<h6>Senior Student</h6>
 					<ul class="address">
 						<li>
@@ -134,8 +160,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<br><i>B.Eng. in Electronic Engineering.</i>
 									<br>Advisors: Prof. Huimin Ma and Prof. Shengjin Wang.</li>
 							</ul>
-						</li>
-
+						</li>			
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -176,18 +201,58 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<h3 class="title">Research</h3>
 
+
+
+<div id="page_wrap"> 
+
+  <div class="image_stack" style="margin-left:760px">
+   <img id="photo1" class="stackphotos" src="files/4/1.png"  >
+    <img  id="photo2" class="stackphotos" src="files/4/2.png" >
+     <img   id="photo3" class="stackphotos"  src="files/4/3.png" > 
+     </div>
+
+
+  <div class="image_stack" style="margin-left:570px">
+   <img id="photo1" class="stackphotos" src="files/2/1.png"  >
+    <img  id="photo2" class="stackphotos" src="files/2/2.png" >
+     </div>
+     
+
+  <div class="image_stack" style="margin-left:380px">
+   <img id="photo1" class="stackphotos" src="files/1/1.jpg"  >
+    <img  id="photo2" class="stackphotos" src="files/1/2.jpg" >
+     <img   id="photo3" class="stackphotos"  src="files/1/3.png" > 
+     </div>
+
+
+  <div class="image_stack" style="margin-left:190px">
+   <img id="photo1" class="stackphotos" src="files/5/1.png"  >
+    <img  id="photo2" class="stackphotos" src="files/5/2.png" >
+     <img   id="photo3" class="stackphotos"  src="files/5/3.png" > 
+     </div>
+
+  <div class="single_photo">
+    <ul id="pics">
+      <li><a href="#pic1" title="Photo"><img src="files/3/1.jpg" alt="picture"></a></li>
+    	</ul>
+  </div>
+
+
+</div>
+
+
 			<!--1-->
 			<div class="work-info"> 
 				<div class="col-md-6 work-left"> 
 					<h4>07. 2017 – Present</h4>
 				</div>
 				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-briefcase"></span><font size ="5em" color="#6495ED">Skeleton Body Pose Prediction Based On First Person Videos</font>
+					<h5><a href="files/First_Person_Skeleton.pdf"><span class="glyphicon glyphicon-briefcase"></span></a><font size ="5em" color="#6495ED">Skeleton Body Pose Prediction Based On First Person Videos</font>
 						<br><i>General Robotics, Automation, Sensing and Perception (GRASP) Laboratory, University of Pennsylvania</i>
 					    <br><font color="#6495ED">Research Assistant to Prof. Jianbo Shi</font></h5>		
 				</div>
 				<p>•	Three-dimensional-reconstructed context from highly jittery, blurry and narrow ego-centric frames with Multi-View Stereo.
-					<br>•	Tracked joints with LSTM in first-person videos, to estimate and predict skeleton body pose of camera-holder.</p>
+					<br>•	<a href="videos/Joint.mov">Tracked joints with LSTM in first-person videos</a>, to estimate and predict <a href="videos/Skeleton.mov">skeleton body pose of camera-holder</a>.</p>
 				<div class="clearfix"> </div>
 			</div>
 
@@ -197,13 +262,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h4>08. 2016 – 2017.01</h4>
 				</div>
 				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-briefcase"></span><font size ="5em" color="#6495ED">Hardness Prediction for Object Detection inspired by Human Vision</font>
+					<h5><a href="files/ECT_Yuwei.pdf"><span class="glyphicon glyphicon-briefcase"></span></a><font size ="5em" color="#6495ED">Hardness Prediction for Object Detection inspired by Human Vision</font>
 						<br><i>3D Image Simulation Laboratory, Tsinghua University</i>
 					    <br><font color="#6495ED">Research Assistant to Prof. Huimin Ma</font></h5>		
 				</div>
 				<p>•	Introduced human factor into object detection to predict the detection hardness.
-					<br>•	Defined novel eye tracking features and eye tracking complexity, to quantify complicated human visual process.
-					<br>•	Computed eye tracking complexity directly with an CNN in spite of laborious eye tracking experiments.
+					<br>•	Defined novel <a href="files/ECT_elements.pdf">eye tracking features</a> and eye tracking complexity, to quantify complicated human visual process.
+					<br>•	<a href="files/ECT_general.pdf">Computed eye tracking complexity directly with an CNN in spite of laborious eye tracking experiments.</a>
 					<br>•	Contributed to a first-authored paper, which has been accepted as oral presentation in ICIG 2017.</p>
 				<div class="clearfix"> </div>
 			</div>
@@ -229,13 +294,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h4>12. 2016 – 2017.06</h4>
 				</div>
 				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-briefcase"></span><font size ="5em" color="#6495ED">End-to-End Printed Chinese Text Recognition Based on CNN</font>
+					<h5><a href="files/OCR.pdf"><span class="glyphicon glyphicon-briefcase"></span></a><font size ="5em" color="#6495ED">End-to-End Printed Chinese Text Recognition Based on CNN</font>
 						<br><i>Intellectual Graphs and Texts Processing Laboratory, Tsinghua University</i>
 					    <br><font color="#6495ED">Research Assistant to Prof. Shengjin Wang</font></h5>		
 				</div>
 				<p>•	Constructed THU Chinese printed character database (THU Chinese Database), containing 3500+ categories of Chinese characters for both offline training and validation.
 					<br>•	Trained a multi-pathway convolutional neural network, achieved a prevision of 86.8% on THU Chinese Database.
-					<br>•	Proposed solution was purchased by China Mobile.</p>
+					<br>•	Proposed solution was purchased by <a href="https://en.wikipedia.org/wiki/China_Mobile">China Mobile.</a></p>
 				<div class="clearfix"> </div>
 			</div>
 
@@ -268,13 +333,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="container">
 			<h3 class="title">Project</h3>
 
+
+
+<div id="page_wrap"> 
+
+  <div class="image_stack" style="margin-left:760px">
+   <img id="photo1" class="stackphotos" src="files/6/1.png"  >
+    <img  id="photo2" class="stackphotos" src="files/6/2.png" >
+     <img   id="photo3" class="stackphotos"  src="files/6/3.png" > 
+     </div>
+
+  <div class="image_stack" style="margin-left:380px">
+   <img id="photo1" class="stackphotos" src="files/8/1.png"  >
+    <img  id="photo2" class="stackphotos" src="files/8/2.png" >
+     <img   id="photo3" class="stackphotos"  src="files/8/3.png" > 
+     </div>
+     
+  <div class="single_photo">
+    <ul id="pics">
+      <li><a href="#pic1" title="Photo"><img src="files/7/1.png" alt="picture"></a></li>
+    </ul>
+  </div>
+</div>
+
 				<!--1-->
 			<div class="work-info"> 
 				<div class="col-md-6 work-left"> 
 					<h4>Spring 2017</h4>
 				</div>
 				<div class="col-md-6 work-right"> 
-					<h5><span class="glyphicon glyphicon-briefcase"></span><font size ="5em" color="#6495ED">Facial Expression Recognition</font>
+					<h5><a href="files/Emotion.pdf"><span class="glyphicon glyphicon-briefcase"></span></a><font size ="5em" color="#6495ED">Facial Expression Recognition</font>
 						<br><i>Course project in “Media and Recognition”</i>
 				</div>
 				<p>•	Used VGG-16, multistage fine-tuning on various datasets including VGG-Face dataset, FER2013 public Test, FER2013 private Test and CK+.
@@ -444,19 +532,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 -->
 	<!--contact-->
-
+<!--
 	<div id="contact" class="contact">
 		<div class="container">
 			<h3 class="title">Contact</h3>
 			<ul>
-				<p><i><strong><font size="5" color=#FF88C2>Email</font></strong></i> <br> <a href="mailto:qyw14@mails.tsinghua.edu.cn"> qyw14 <strong>at</strong> mails.tsinghua.edu.cn</a>
+				<p><i><strong><font size="5" color=#FF88C2>Email</font></strong></i>
 				<br><a href="mailto:vic_thustudy@126.com"> vic_thustudy <strong>at</strong> 126.com</a></p>
-				<p><i><strong><font size="5" color=#FF88C2>Office</font></strong></i> <br> Rohm Building, Tsinghua University, Beijing, China.</p>
-				<p>I am looking for graduate opportunities in America, Please contact me if you consider myself a suitable person.</p>
 			</ul>
 		</div>
 	</div>
+-->
+	<div id="project" class="work">
+		<div class="container">
+			<h3 class="title">Contact</h3>
 
+			<ul class="gallery">
+				<li><img src="1.jpg"></li>
+				<li><img src="2.jpg"></li>
+				<li><img src="3.jpg"></li>
+				<li><img src="4.jpg"></li>
+				<li><img src="5.jpg"></li>
+				<li><img src="6.jpg"></li>      
+			</ul>
+		</div>
+	</div>
 
 
 	<!--contact-->

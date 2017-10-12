@@ -28,10 +28,48 @@ ul,label{
 	margin:0;
 	padding:0;
 }
+
 body a:hover{
     color: #FFC0CB;/*粉色*/
 	text-decoration:none;
 }
+
+/*--news gallery--*/
+.gallery{
+    list-style: none;
+    margin: 50px auto; padding: 0;
+    width: 642px; /* (200+10+4)x3 */
+    font-size: 0; /* fix inline-block spacing */
+}
+
+.gallery li{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    width: 200px; height: 150px;
+    margin: 2px;
+    border: 5px solid #fff;
+    -moz-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;        
+}
+
+    .gallery:hover li:not(:hover){       
+    -webkit-filter: blur(2px) grayscale(1);
+    -moz-filter: blur(2px) grayscale(1);
+    -o-filter: blur(2px) grayscale(1);
+    -ms-filter: blur(2px) grayscale(1);
+    filter: blur(2px) grayscale(1);
+    opacity: .7; /* fallback */        
+}
+
+
+
 /*--baner--*/
 .banner {
 	background: #FFFAFA;
@@ -176,7 +214,7 @@ p {
 /*--//welcome--*/
 /*--//news--*/
 .news {
-    background: #FFF;
+    background: #FFFAFA;
 }
 .news p{
     text-align:left;
@@ -187,30 +225,7 @@ p {
     margin-top:20px;
 }
 /*--//news--*/
-/*--//about--*/
-.about-right {
-    padding-left: 5em;
-}
-.about-right ul {
-    border: 3px double #6495ED;
-    padding: 1em 2em;
-}
-.about-right h5 {
-    font-size: 2em;
-    text-align: center;
-    color: #6495ED;
-}
-.about-right ul li {
-    display: block;
-    color: #444;
-    margin: 1em 0;
-	font-size:1em;
-}
-.about-right ul li span.glyphicon {
-    font-size: 0.8em;
-	margin-right: 6px;
-}
-/*--//about--*/
+
 /*--work--*/
 .work {
     background: #FFFAFA;
@@ -313,11 +328,7 @@ p {
 	-ms-transform: scale(1.2);
 }
 /*--//work--*/
-/*--education--*/
-.education .work-info h5 {
-    color: #FFB6C1;
-}
-/*--//education--*/
+
 /*--skills--*/
 .skills{
 	background:#FFFAFA;
@@ -343,7 +354,7 @@ p {
     font-size: 0.9em;
 }
 /*--//skills--*/
-/*--portfolio--*/
+
 /*--SAP--*/
 ul.resp-tabs-list {  
 /*-- w3layouts --*/
@@ -417,6 +428,7 @@ h2.resp-accordion {
    display: block;
 }
 /*--//SAP--*/
+
 /*--img-hover--*/
 .portfolio-grids {
     margin-top: 2em;
@@ -558,7 +570,8 @@ h2.resp-accordion {
 
 
 .contact{
-    background:url(../images/b3.jpg)no-repeat center 0px;
+    /*background:url(../images/b3.jpg)no-repeat center 0px;*/
+    background: #222;
     -webkit-background-size:cover;
     background-size:cover;
     -moz-background-size:cover;
