@@ -6,8 +6,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Arial', sans-serif;
-	background: #FFFAFA;
+	font-family: 'Verdana', sans-serif;
+	background: #FFFAFA;/*雪色*/
 }
 body a{
 	transition: 0.5s all;
@@ -34,10 +34,10 @@ body a:hover{
 }
 /*--baner--*/
 .banner {
-	background: #000;
+	background: #FFFAFA;
 }
 .banner-info{
-	background: #000;
+	background: #FFFAFA;
 	padding: 4em 0;
 }
 .header-left img {
@@ -86,20 +86,24 @@ ul.address li {
     display: block;
 }
 ul.address li ul.address-text li {
+    font-family: 'Verdana', sans-serif;
     display: inline-block;
     font-size: 1.2em;
-    color: #fff;
+    color: #444;
     margin-top: 1em;
 	font-weight: 100;
 }
 ul.address li ul.address-text li:nth-child(1){
+    font-family: 'Verdana', sans-serif;
 	width: 20%;
 }
 ul.address li ul.address-text li a {
-    color: #fff;
+    font-family: 'Verdana', sans-serif;
+    color: #444;
 	text-decoration:none;
 }
 ul.address li ul.address-text li a:hover{
+    font-family: 'Verdana', sans-serif;
     color: #FFC0CB;
 }
 /*--//banner-top--*/
@@ -115,13 +119,13 @@ ul.nav.navbar {
     text-align: center;
 }
 ul.nav.navbar li a {
-    color: #fff;
+    color: #444;
     padding: 1em 2em;
     font-size: 1.2em;
     font-family: 'Overlock', cursive;
 }
 ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
-    background: #fff;
+    background: #444;
     color: #6495ED;
 	-webkit-transform: scale(0.7);
 	-moz-transform: scale(0.7);
@@ -130,7 +134,7 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 	-ms-transform: scale(0.7);
 }
 /*--//top-nav--*/
-.news,.about,.work,.education,.skills,.portfolio,.contact{
+.news,.about,.work,.banner,.education,.skills,.portfolio,.contact{
 	padding:6em 0;
 }
 h3.title {
@@ -143,7 +147,7 @@ h3.title {
 }
 p {
     font-size: 1em;
-    color: #999;
+    color: #444;
     line-height: 1.8em;
 }
 /*--//welcome--*/
@@ -162,9 +166,8 @@ p {
     margin-top:150px
 }
 .welcome p{
-    text-align:center;
     font-size:16px;
-    color:#555;
+    color:#444;
     line-height:27px;
     width:100%;
     margin:0px;
@@ -173,14 +176,14 @@ p {
 /*--//welcome--*/
 /*--//news--*/
 .news {
-    background: #FFFAFA;
+    background: #FFF;
 }
 .news p{
     text-align:left;
     font-size:16px;
-    color:#999;
-    width:100%;
-    margin:20px;
+    color:#444;
+    width:85%;
+    margin-left: 5em;
     margin-top:20px;
 }
 /*--//news--*/
@@ -199,7 +202,7 @@ p {
 }
 .about-right ul li {
     display: block;
-    color: #555;
+    color: #444;
     margin: 1em 0;
 	font-size:1em;
 }
@@ -210,12 +213,12 @@ p {
 /*--//about--*/
 /*--work--*/
 .work {
-    background: #000;
+    background: #FFFAFA;
 }
 .work-left {
     text-align: right;
-    padding: 2em 5em 0 0;
-    /*border-right: 1px solid #999;/*//////////
+    padding: 2em 24em 0 0;
+    /*border-right: 1px solid #999;/*/
 }
 .work-right {
     padding: 2.5em 0 2em 6em;
@@ -249,9 +252,14 @@ p {
     font-size: 1.3em;
     color: #FFB6C1;
     margin-bottom: .5em;
-    border: 1px solid #FFB6C1;
     display: inline-block;
     padding: 1em 1.25em;
+}
+.work-info p {
+    display: inline-block;
+    margin-right: 5em;
+    margin-left: 26em;
+    padding: 0em 0em;
 }
 .work-info h5 span.glyphicon {
     font-size: 0.9em;
@@ -270,13 +278,14 @@ p {
     -o-transform: scale(1);
     -ms-transform: scale(1);
 }
+/* 小图标*/
 .work-right h5 span.glyphicon {
-    margin-right: 5em;
-    margin-left: -8em;
+    margin-right: 3em;
+    margin-left: -25em;
 }
 .work-left2 h5 span.glyphicon {
     margin-left: 4em;
-    margin-right: -7.3em;
+    margin-right: -7.5em;
     z-index: 9;
 }
 .work-right.work-right2 {
@@ -311,7 +320,7 @@ p {
 /*--//education--*/
 /*--skills--*/
 .skills{
-	background:#000;
+	background:#FFFAFA;
 }
 .bar-grids {
     padding: 0 4em;
@@ -712,7 +721,7 @@ h3.title {
     padding: 1em;
 }
 .work-left {
-    padding: 2em 4em 0 0;
+    padding: 2em 2em 0 0;
     float: left;
     width: 50%;
 }
@@ -730,8 +739,8 @@ h3.title {
     padding: 0 1em;
 }
 .work-left2 h5 span.glyphicon {
-    margin-left: 3.4em;
-    margin-right: -6.4em;
+    margin-left: 0em;
+    margin-right: 0em;
 }
 .work-right.work-right2 {
     min-height: 220px;
@@ -900,10 +909,10 @@ p {
     font-size: 1em;
 }
 .work-left {
-    padding: 1em 3em 0 0;
+    padding: 0em 0em 0 0;
 }
 .work-right {
-    padding: 1em 0 0.5em 3em;
+    padding: 0em 0 0em 0em;
 }
 .work-right h5 span.glyphicon {
     margin-right: 3em;
