@@ -654,9 +654,13 @@ h2.resp-accordion {
 	filter: alpha(opacity=0);
 }
 /*--//slider-up-arrow--*/
+
+
+
+
 /*---- responsive-design -----*/
 @media(max-width:1366px){
-.about,.work,.education,.skills,.portfolio,.contact {
+.about,.work,.education,.skills,.portfolio,.contact2, .welcome {
     padding: 5em 0;
 }
 .work-right.work-right2 {
@@ -808,7 +812,7 @@ h3.title {
 }
 }
 @media(max-width:800px){
-.about, .work, .education, .skills, .portfolio, .contact {
+.about, .work, .education, .skills, .portfolio, .contact2s {
     padding: 3em 0;
 }
 h3.title {
