@@ -191,6 +191,7 @@ p {
 /*--//welcome--*/
 .welcome {
     background:url(../images/a3.jpg)no-repeat center 0px;
+    width:100%;
     -webkit-background-size:cover;
     background-size:cover;
     -moz-background-size:cover;
@@ -202,6 +203,7 @@ p {
     padding: 5em 5em;
     margin:150px;
     margin-top:150px
+    width:100%;
 }
 .welcome p{
     font-size:16px;
