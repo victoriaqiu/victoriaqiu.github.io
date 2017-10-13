@@ -568,10 +568,25 @@ h2.resp-accordion {
     right: -17px;
 }
 
+.contact2{
+    background: #333;
+    -webkit-background-size:cover;
+    background-size:cover;
+    -moz-background-size:cover;
+    position: relative;
+}
+
+.contact2 p{
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+    width:85%;
+    margin-left: 5em;
+    margin-top:20px;
+}
 
 .contact{
-    /*background:url(../images/b3.jpg)no-repeat center 0px;*/
-    background: #222;
+    background:url(../images/b3.jpg)no-repeat center 0px;
     -webkit-background-size:cover;
     background-size:cover;
     -moz-background-size:cover;
