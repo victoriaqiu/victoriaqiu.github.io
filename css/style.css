@@ -294,6 +294,9 @@ p {
     margin-right: 3em;
     margin-left: -25em;
 }
+.work-right p{
+    
+}
 .work-left2 h5 span.glyphicon {
     margin-left: 4em;
     margin-right: -7.5em;
@@ -652,16 +655,28 @@ h2.resp-accordion {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*---- responsive-design -----*/
 @media(max-width:1366px){
-.about,.work,.education,.skills,.portfolio,.contact2, .welcome {
+.about,.work,.education,.skills,.contact2,.welcome {
     padding: 5em 0;
 }
 .work-right.work-right2 {
     min-height: 200px;
 }
 .work-right {
-    padding: 2.5em 0 1em 6em;
+    padding: 2.5em 0 1em 7em;
 }
 }
 @media(max-width:1080px){
@@ -674,7 +689,7 @@ ul.address {
 ul.address li ul.address-text li {
     margin-top: 0.8em;
 }
-.about, .work, .education, .skills, .portfolio, .contact {
+.about, .work, .education, .skills, .portfolio, .contact2 {
     padding: 4em 0;
 }
 h3.title {
@@ -759,10 +774,11 @@ h3.title {
     width: 50%;
 }
 .work-right h5 span.glyphicon {
-    margin-right: 5em;
-    margin-left: -7.3em;
+    margin-right: 6em;
+    margin-left: -7em;
 }
 .work-info h5 {
+    font-family: 'Impact', cursive;
     font-size: 1.2em;
     padding: 0 1em;
 }
