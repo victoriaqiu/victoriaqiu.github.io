@@ -226,6 +226,14 @@ p {
 .work {
     background: #FFFAFA;
 }
+.work h1{
+    text-align:center;
+    font-size:25px;
+    color:#666;
+    width:85%;
+    margin-left: 5em;
+    margin-top:20px;
+}
 .work-left {
     text-align: right;
     padding: 2em 24em 0 0;
@@ -260,7 +268,7 @@ p {
     border-color: transparent transparent transparent #6495ED;
 }
 .work-info h5 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #FFB6C1;
     margin-bottom: .5em;
     display: inline-block;
