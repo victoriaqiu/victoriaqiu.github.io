@@ -34,13 +34,9 @@
 @media (max-width:1366px) {
 .gallery{
     list-style: none;
-    margin: 0 auto; 
-    padding: 0;
-    display:block; 
-    position:relative;
+    margin: 0px auto; padding: 0;
+    width: 360px; /* (200+10+4)x3 */
     font-size: 0; /* fix inline-block spacing */
 }
-.gallery li{
-    width: 120px; height: 90px;      
-}
+
 }
