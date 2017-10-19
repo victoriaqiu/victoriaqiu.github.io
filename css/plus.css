@@ -31,17 +31,3 @@
     opacity: .7; /* fallback */        
 }
 
-
-
-.news {
-    background: #FFF;
-}
-.news p{
-    text-align:left;
-    font-size:15px;
-    color:#111;
-    text-align: justify;
-    padding-left: 6em;
-    padding-right: 6em;
-    margin-top:20px;
-}
