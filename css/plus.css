@@ -31,3 +31,11 @@
     opacity: .7; /* fallback */        
 }
 
+@media screen and (max-width: 600px){
+.gallery{
+    list-style: none;
+    margin: 5px auto; padding: 0;
+    width: 125px; /* (200+10+4)x3 */
+    font-size: 0; /* fix inline-block spacing */
+}
+}
