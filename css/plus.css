@@ -35,7 +35,8 @@
 .gallery{
     list-style: none;
     margin: 0 auto; padding: 0;
-    width: 400px; /* (200+10+4)x3 */
+    display:block; 
+    position:relative;
     font-size: 0; /* fix inline-block spacing */
 }
 }
