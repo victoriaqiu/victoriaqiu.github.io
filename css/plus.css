@@ -31,12 +31,44 @@
     opacity: .7; /* fallback */        
 }
 
-@media (max-width:1366px) {
+
+.imglist li{
+    padding-left:4.3em;
+    float:left;
+    margin:0 1px;
+    display:inline;
+}
+
+@media (max-width:999px) {
+.gallery{
+    list-style: none;
+    margin: 10px auto; padding: 0;
+    width: 820px; /* (200+10+4)x3 */
+    font-size: 0; /* fix inline-block spacing */
+}
+
+.imglist li{
+    padding-left:0em;
+    margin: 1.5px;
+}
+}
+
+@media (max-width:800px) {
+.gallery{
+    list-style: none;
+    margin: 1px auto; padding: 0;
+    width: 625px; /* (200+10+4)x3 */
+    font-size: 0; /* fix inline-block spacing */
+}
+}
+
+@media (max-width:600px) {
 .gallery{
     list-style: none;
     margin: 1px auto; padding: 0;
     width: 410px; /* (200+10+4)x3 */
     font-size: 0; /* fix inline-block spacing */
 }
-
 }
+
+
