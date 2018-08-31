@@ -1,258 +1,886 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta name="description" content="Cocoon -Portfolio">
-    <meta name="keywords" content="Cocoon , Portfolio">
-    <meta name="author" content="Pharaohlab">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- ========== Title ========== -->
-    <title> Cocoon -Portfolio</title>
-    <!-- ========== Favicon Ico ========== -->
-    <!--<link rel="icon" href="fav.ico">-->
-    <!-- ========== STYLESHEETS ========== -->
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts Icon CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/et-line.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <!-- Carousel CSS -->
-    <link href="assets/css/slick.css" rel="stylesheet">
-    <!-- Magnific-popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-</head>
-<body>
-<div class="loader">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
-</div>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Yuwei (Victoria) Qiu's Homepage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-<div class="body-container container-fluid">
-    <a class="menu-btn" href="javascript:void(0)">
-        <i class="ion ion-grid"></i>
-    </a>
-    <div class="row justify-content-center">
-        <!--=================== side menu ====================-->
-        <div class="col-lg-2 col-md-3 col-12 menu_block">
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-            <!--logo -->
-            <div class="logo_box">
-                <a href="#">
-                    <img src="assets/img/logo.png" alt="cocoon">
-                </a>
-            </div>
-            <!--logo end-->
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicons.ico">
 
-            <!--main menu -->
-            <div class="side_menu_section">
-                <ul class="menu_nav">
-                    <li class="active">
-                        <a href="index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="about.html">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="services.html">
-                            Services
-                        </a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="blog.html">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contact.html">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--main menu end -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-            <!--filter menu -->
-            <div class="side_menu_section">
-                <h4 class="side_title">filter by:</h4>
-                <ul  id="filtr-container"  class="filter_nav">
-                    <li  data-filter="*" class="active"><a href="javascript:void(0)" >all</a></li>
-                    <li data-filter=".branding"> <a href="javascript:void(0)">branding</a></li>
-                    <li data-filter=".design"><a href="javascript:void(0)">design</a></li>
-                    <li data-filter=".photography"><a href="javascript:void(0)">photography</a></li>
-                    <li data-filter=".architecture"><a href="javascript:void(0)">architecture</a></li>
-                </ul>
-            </div>
-            <!--filter menu end -->
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-            <!--social and copyright -->
-            <div class="side_menu_bottom">
-                <div class="side_menu_bottom_inner">
-                    <ul class="social_menu">
-                        <li>
-                            <a href="#"> <i class="ion ion-social-pinterest"></i> </a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="ion ion-social-facebook"></i> </a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="ion ion-social-twitter"></i> </a>
-                        </li>
-                        <li>
-                            <a href="#"> <i class="ion ion-social-dribbble"></i> </a>
-                        </li>
-                    </ul>
-                    <div class="copy_right">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </div>
-                </div>
-            </div>
-            <!--social and copyright end -->
+	</head>
+	<body>z
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html"><br>Yuwei (Victoria) Qiu</a></h1>
+				<span class="position"><a href="#">Seeking For 2019 SDE/MLE Summer Intern</a></span>
+				<a href="https://www.linkedin.com/in/yuwei-victoria-qiu/"><i class="icon-linkedin2"></i></a></li>
+			</div>
+			
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="ability">Ability</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="project">Project</a></li>
+						<li><a href="#" data-nav-section="honors">Honors</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
 
-        </div>
-        <!--=================== side menu end====================-->
+					</ul>
+				</div>
+			</nav>
 
-        <!--=================== content body ====================-->
-        <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
-            <div class="portfolio">
-                <div class="container-fluid">
-                    <!--=================== masaonry portfolio start====================-->
-                    <div class="grid img-container justify-content-center no-gutters">
-                        <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
-                        <div class="grid-item branding  col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port1.png" title="project name 1">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port1.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding architecture  col-sm-12 col-md-6">
-                            <a href="assets/img/portfolio/home-port2.png" title="project name 2">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port2.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  design col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port3.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port3.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  photography design col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port4.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port4.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item  branding photography  col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port5.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port5.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="grid-item   architecture design col-sm-12 col-md-6 col-lg-3">
-                            <a href="assets/img/portfolio/home-port6.png" title="project name 5">
-                                <div class="project_box_one">
-                                    <img src="assets/img/portfolio/home-port6.png" alt="pro1" />
-                                    <div class="product_info">
-                                        <div class="product_info_text">
-                                            <div class="product_info_text_inner">
-                                                <i class="ion ion-plus"></i>
-                                                <h4>project name</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!--=================== masaonry portfolio end====================-->
-                </div>
-            </div>
-        </div>
-        <!--=================== content body end ====================-->
-    </div>
-</div>
+			<div class="colorlib-footer">
+					<!--
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+				-->
+				
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/3.png);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+					   						
+							   					<h1><font color=#fff>Hi! <br>I'm Yuwei</font></h1>
+							   					<h2><font color=#fff>Master of Computational Data Science at Carnegie Mellon University.</font></h2>
+											
+										</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/3.png);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1><font color=#fff>I am a <br>Software Engineer</font></h1>
+												<h2><font color=#fff>Software Engineer at Huawei Technologies</font></h2>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/3.png);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1><font color=#fff>I am a<br>Machine Learning Researcher</font></h1>
+												<h2><font color=#fff>Research Assitant at Tsinghua University and University of Pennsylvania.</font></h2>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><a class="btn btn-primary btn-learn" href="cv/CV_Yuwei_Qiu.pdf">Download Resume<i class="icon-download4"></i></a></p>
+										<p>
+											<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yuwei Qiu is now a <a href="https://mcds.cs.cmu.edu/" target="_blank">master of computational data science (MCDS program)</a> candidate of <a href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>. She has just received her B.Eng with honor from <a href="https://www.tsinghua.edu.cn/publish/eeen/index.html" target="_blank">EE department of Tsinghua University</a>.
+											<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yuwei is equipped with sound knowledge in algorithms, data structure, and various program languages, which makes her a top-class programmer. 
+											<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yuwei has Abundant experience in Artificial Intelligence and is quite competitive in the field of Machine/Deep Learning with first-authored oral presented publications.
+											<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the aspect of Yuwei's career potential, she did brilliant work in <a href="https://www.huawei.com/en/" target="_blank">Huawei Technologies</a> as an software engineer intern. She is also an elite researcher in <a href="http://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> and <a href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</a>.</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-bulb"></i></span>
+										<h3>Software <br>Development</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><i class="icon-globe-outline"></i></span>
+										<h3>Machine <br>Learning</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-data"></i></span>
+										<h3>Computer <br>Vision</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-phone3"></i></span>
+										<h3>Data <br>Science</h3>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am NOW <br><strong>seeking for 2019 Summer Internship opportunities!</strong></h2>
+										<a href="#" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 
-<!-- jquery -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- bootstrap -->
-<script src="assets/js/popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
-<!--slick carousel -->
-<script src="assets/js/slick.min.js"></script>
-<!--Portfolio Filter-->
-<script src="assets/js/imgloaded.js"></script>
-<script src="assets/js/isotope.js"></script>
-<!-- Magnific-popup -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!--Counter-->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!-- WOW JS -->
-<script src="assets/js/wow.min.js"></script>
-<!-- Custom js -->
-<script src="assets/js/main.js"></script>
-</body>
+			
+			<section class="colorlib-services" data-section="ability">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">What I can do?</span>
+							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>Software</h3>
+									<p>Established a <font color=#2c98f0><i>System with Interactive Sensors</i></font> using <font color=#2c98f0><i>C/C++</i></font>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Multimedia</h3>
+									<p>Experienced in <font color=#2c98f0><i>Context Retrieval for Sequences</i></font> using <font color=#2c98f0><i>PyTorch</i></font>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Application</h3>
+									<p>Contributed to a <font color=#2c98f0><i>Application Programming Interface</i></font> in <font color=#2c98f0><i>python</i></font>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>HCI</h3>
+									<p>Designed <font color=#2c98f0><i>Personal Websites</i></font> with <font color=#2c98f0><i>HTML and CSS</i></font>.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Machine Learning</h3>
+									<p>Published a <font color=#2c98f0><i>First-Authored Oral Presented Paper</i></font> in PR.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-6">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Leadership</h3>
+									<p>Served as <font color=#2c98f0><i>Vice President of Stud. Union</i></font> in Tsinghua University.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+
+			
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">School Work</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									            	Carnegie Mellon University
+									            	<br>Master of Computational Data Science
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-6">
+										      			<p>
+										      				Master of Computational Data Science program in CMU equiped me with the skills and knowledge you need to develop the layers of technology involved in the next generation of massive information system deployments and analyze the data those systems generate. 
+										      			</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p> 
+										      				<strong>
+										      				08/2018 - 12/2019(Expected)
+										      			<br>CGPA - 4.0/4.0
+										      			<br>Relevant Coursework: Introduction to Computer System, Introduction to Machine Learning, Cloud Computing.
+										      				</strong>
+										      			</p>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									            	Tsinghua University
+									            	<br>Bachelor Degree of Electrical Engineering
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+												<div class="row">
+										      		<div class="col-md-6">
+										      			<p>
+										      				Bachelor Degree of Electrical Engineering in THU provided with a thorough background in the fundamentals of electrical or computer engineering, as well as the opportunity for in-depth specialization in some particular aspect of these fields.  
+										      			</p>
+										      		</div>
+										      		<div class="col-md-6">
+										      			<p> 
+										      				<strong>
+										      				08/2014 - 07/2018
+										      			<br>Graduated with honor <strong>~top 10%</strong>.
+										      			<br>CGPA - 3.8/4.0
+										      			<br>Relevant Coursework: Data Structure & Algorithms, Machine Learning, Media and Cognition, Operating System, Computer Architecture, .
+										      				</strong>
+										      			</p>
+										      		</div>
+										      	</div>
+									        </div>
+									    </div>
+									    <br><br>
+										<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+											<div class="overlay"></div>
+											<div class="colorlib-narrow-content">
+												<div class="row">
+												</div>
+												<div class="row">
+													<h2><font color=#fff>
+															<br><br>
+														</font>
+													</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2><a href="#">Software Engineer Intern at AI Group, Huawei Technologies</a> <span>11/2017 - 01/2018</span></h2>
+					                  <p>
+					                  	<ul>
+											<li>Cooperated with a group to construct an offline text recognition system utilizing multi-pathway CNNs and statistic conditional random field models with Caffe.</li>
+											<li>Boosted accuracy to 96.8% on the 20GB CMCC Database with over 20 million training/validation samples.</li>
+											<li>Resulted in the work being used in smart phone products as artificial intelligence tools.</li>
+										</ul>
+					                  </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Teaching Assistant at University of Pennsylvania</a> <span>06/2017 - 08/2017</span></h2>
+					                  <p>
+					                  	<ul>
+											<li>Summer Session: Visual Intelligence & ML, under Prof. Jianbo Shi.</li>
+											<li>Held recitations, office hours, oral presentations and final review sessions, and graded homework.</li>
+											<li>Designed problems, all testcases for programming assignments.</li>
+										</ul>
+					                  </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Research Intern at Tsinghua University</a> <span>12/2016 - 06/2017</span></h2>
+					                  <p>
+					                  	<ul>
+											<li>Led a group in developing an interactive system using MATLAB and C++ for 1,280 sets of eye tracking experiments with over 1,000 candidates.</li>
+											<li>Proposed and implemented an unsupervised learning approach with Caffe to generate newly defined features.</li>
+											<li>Contributed to a first-authored paper, accepted as oral presentation in ICIG 2017.</li>
+										</ul>
+					                  </p>
+					               </div>
+					            </div>
+					         </article>
+<!--
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
+					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               </div>
+					            </div>
+					         </article>
+-->
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="project">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Recent Work</span>
+							<h2 class="colorlib-heading animate-box">Projects</h2>
+						</div>
+					</div>
+<!--
+					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="col-md-12">
+							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
+						</div>
+					</div>
+-->
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-1.png);">
+								<div class="desc">
+									<div class="con">
+										<h3>
+											<a href="work.html">
+												System, C:
+												<br>Dynamic Memory Allocator Package
+											</a></h3>
+									<span>Carnegie Mellon University | 06/2018</span>
+										<p>
+											<ul>
+												<font color=#fff size=2pt>
+													<li> Built a dynamic allocation system with segregated free list and best fit searching.</li>
+													<li> Made efficient usage of space with an average utilization of 74.4%.</li>
+													<li> Achieved an throughput of 15735 Kops/sec on an Intel CPU@3.10GHz machine with a benchmark of 16920 Kops/sec.</li>
+												</font>
+											</ul>
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-2.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3>
+											<a href="work.html">
+												Multimedia, PyTorch:
+												<br>Context Retrieval Based on GoPro Videos
+											</a>
+										</h3>
+									<span>University of Pennsylvania | 07/2017</span>
+										<p>
+											<ul>
+												<font color=#fff size=2pt>
+													<li> Established a system for 3D context reconstruction from a 12GB data set of blurry, narrow ego-centric videos.</li>
+													<li> Obtained The Outstanding Undergraduate Research Award(~top 1%).</li>
+												</font>
+											</ul>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/img-4.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3>
+											<a href="work.html">
+												Vision, Caffe:
+												<br>Facial Emotion Recognition
+											</a>
+										</h3>
+									<span>Tsinghua University | 04/2017</span>
+										<p>
+											<ul>
+												<font color=#fff size=2pt>
+													<li> Established deep networks based on various data sets including VGG-Face dataset, FER2013 public Test, FER2013 private Test and CK+.</li>
+													<li> Achieved a mean average accuracy of 92.4% exceeding the-state-of-art frameworks.</li>
+												</font>
+											<ul>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/img-3.png);">
+								<div class="desc">
+									<div class="con">
+										<h3>
+											<a href="work.html">
+												Machine/Deep Learning, MXNet:
+											    <br>Multilabel Image Classification API
+											</a>
+										</h3>
+									<span>Tsinghua University | 03/2018</span>
+										<p>
+											<ul>
+												<font color=#fff size=2pt>
+													<li> Developed residual learning models to concatenate deep neural networks including DPN and FPN.</li>
+													<li> Created an Application Programming Interface(API), increasing precision by 2.2% and 1.3% compared to the-state-of-the-art method on 1.5GB PASCAL VOC 2012 and 20GB MSCOCO 2014 respectively.</li>
+												</font>
+											</ul>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3>
+											<a href="work.html">
+												Architecture, assembly:
+												<br>32-bit CPU Design and Implementation
+											</a>
+										</h3>
+									<span>Tsinghua University | 05/2016</span>
+										<p>
+											<ul>
+												<font color=#fff size=2pt>
+													<li> Designed on an Altera FPGA and programmed with assembly languages including MIPS.</li>
+													<li> Implemented a 32-bit pipeline MIPS CPU to execute basic commands and communicate with portable computers.</li>
+												</font>
+											</ul>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-6.png);">
+								<div class="desc">
+									<div class="con">
+										<h3>
+											<a href="work.html">
+												Graphics:
+												<br>3-D vector Text Construction and Texture Mapping
+											</a>
+										</h3>
+									<span>Tsinghua University | 04/2016</span>
+										<p>
+											<ul>
+												<font color=#fff size=2pt>
+													<li> Three-dimensional-constructed Chinese characters with high-dimensional Bézier curves and B-splines.</li>
+													<li> Texture mapped Characters with natural scene images with Homography.</li>
+												</font>
+											</ul>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-about" data-section="honors">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">Honors</span>
+										<h2 class="colorlib-heading">My Honors</h2>
+										<p>
+											<h3> Academic </h3>
+											<h4> <font size=2pt>
+												<li> Invited talk to International Conference on Image and Graphic
+													<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017<br>
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oral presentation for the first-author paper Hardness Prediction for Object Detection Inspired by Human Vision.</font></li>
+												<br>
+												<li> Person of the Year 2017 Award, Tsinghua University
+													<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017<br>
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awarded for outstanding overall performance.</font></li>
+												<br>
+												<li> Outstanding International Research Assistant Award, Stanford EE
+													<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015<br>
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awarded for great performance in research on Medical Image Registraion.</font></li>
+												<br>
+												<li> Hong Qian Comprehensive Scholarship, Tsinghua University
+													<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017<br>
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awarded to students with overall development in academic performance, research achievements, art skills, social communication and sports.</font></li>
+											</font></h4>
+
+											<h3> Leadership Activity </h3>
+											<h4> <font size=2pt>
+												<li> President, EE Student Union, Tsinghua University
+													<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016-2018<br>
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In charge of External Communication. Raised nearly USD 20,000 for financial sponsorship with in one year.</font></li>
+												<br>
+												<li> Team Captain for Development for Live Broadcasting of 2017 Anniversary Celebration
+													<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017<br>
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unprecedented success in building a website for live broadcasting with an all-student team and successfully live broadcasting for 5 hours with over 5000 clicks.</font></li>
+												<br>
+												<li> First prize and Outstanding Team Captain Award, Global Business Leaderiship Competition
+													<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015<br>
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Held at Intel, Silicon Valley, awarded for the most outstanding business design and corporation operation.</font></li>
+											</font></h4>
+
+											<h3> Art </h3>
+											<h4> <font size=2pt>
+												<li> Ninth Level of piano skills certificated by Central Conservatory of Music
+													<font color = #999><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highest certification for amateur piano player.</font></li>
+											</font></h4>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+						<br><br>
+						<div class="widgetContainer" style="margin:auto; width:220px">
+                        	<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=Wxug-UCTGqPVMjbKLMVy8kL7qOd6M-TVRNg15DxcC-Q">
+                        	</script>
+                    	</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:victoriayuwei@gmail.com">victoriayuwei at gmail dot com</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+1 412 403 9124</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Photography</span>
+							<br>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="images/blog-1.jpg" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="images/blog-2.jpg" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="images/blog-3.jpg" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+							</div>
+						</div>
+						<p>&copy;Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+								 <br>Yuwei Qiu | Last Updated: 08/31/2018
+						</p>
+					</div>
+				</div>
+			</section>
+		
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
+
+
+
+
+	<!-- 
+<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Photoshop</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>jQuery</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								    <span>60%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>HTML5</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+								    <span>85%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>CSS3</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>WordPress</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>SEO</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			-->
