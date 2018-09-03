@@ -7,12 +7,12 @@
 
 /* =======================================================
 *
-* 	Template Style 
-*	Edit this section
+*   Template Style 
+* Edit this section
 *
 * ======================================================= */
 body {
-  font-family: Courier, monospace;
+  font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -32,7 +32,7 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em;}
+  margin-bottom: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
@@ -501,62 +501,6 @@ body.offcanvas {
   padding: 1.5em;
   margin-top: 5px;
   border: 1px solid #e6e6e6 !important; }
-
-
-
-
-.fancy-collapse-proj .proj-default > .proj-heading {
-  padding: 0; }
-
-.proj-heading a {
-  padding: 20px 25px;
-  display: block;
-  width: 100%;
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Quicksand", Arial, sans-serif;
-  background-color: #fff;
-  color: #2c98f0;
-  position: relative;
-  }
-
-.proj {
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  -ms-box-shadow: none !important;
-  -o-box-shadow: none !important;
-  box-shadow: none !important;
-  border: none; }
-
-.proj-heading a:after {
-  font-family: "icomoon";
-  content: "\e115";
-  position: absolute;
-  right: 20px;
-  font-size: 14px;
-  font-weight: 400;
-  top: 50%;
-  line-height: 1;
-  margin-top: -1px; }
-
-.proj-heading a.collapsed:after {
-  content: "\e114"; }
-
-.proj-heading a.collapsed {
-  background: #fff;
-  color: #333333; }
-
-.proj-body {
-  padding: 1em;
-  margin-top: 0px; }
-
-
-
-
-
-
 
 .timeline-centered {
   position: relative;
