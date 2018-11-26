@@ -1,0 +1,9 @@
+{
+  "name": "d3-use-the-force-directed-graph",
+  "main": "d3-use-the-force-directed-graph.js",
+  "version": "263.0.0",
+  "author": {
+    "name": "victoriaqiu",
+    "url": "https://beta.observablehq.com/@victoriaqiu"
+  }
+}
