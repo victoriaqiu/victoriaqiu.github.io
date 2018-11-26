@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
 
 <!-- Site title
 ================================================== -->
@@ -28,6 +28,14 @@
 <link rel="stylesheet" href="css/style.css">
 <title>The accumulating count of all users in Yelp since 20041.</title>
 <body>
+
+
+<div class="preloader">
+
+    <div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
 <script type="module">
 
 import {Inspector, Runtime} from "https://unpkg.com/@observablehq/notebook-runtime@1?module";
@@ -36,13 +44,6 @@ import notebook from "./e53ddcf6b15552a5.js";
 Runtime.load(notebook, Inspector.into(document.body));
 
 </script>
-
-<div class="preloader">
-
-    <div class="sk-spinner sk-spinner-pulse"></div>
-
-</div>
-
 
 <!-- Navigation section
 ================================================== -->
