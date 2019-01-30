@@ -92,7 +92,7 @@ figure {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 300px;
+  width: 350px;
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
@@ -236,11 +236,11 @@ figure {
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 300px);
+  width: calc(100% - 350px);
   float: right;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
